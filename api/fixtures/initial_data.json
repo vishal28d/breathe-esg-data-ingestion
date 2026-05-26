@@ -1,0 +1,170 @@
+[
+  {
+    "model": "api.tenant",
+    "pk": 1,
+    "fields": {
+      "name": "Acme Manufacturing Ltd",
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "api.facility",
+    "pk": 1,
+    "fields": {
+      "tenant": 1,
+      "name": "Pune Plant",
+      "plant_code": "WERK_PUN",
+      "location": "Pune, Maharashtra, India"
+    }
+  },
+  {
+    "model": "api.facility",
+    "pk": 2,
+    "fields": {
+      "tenant": 1,
+      "name": "Bengaluru Office",
+      "plant_code": "WERK_BLR",
+      "location": "Bengaluru, Karnataka, India"
+    }
+  },
+  {
+    "model": "api.facility",
+    "pk": 3,
+    "fields": {
+      "tenant": 1,
+      "name": "Mumbai Logistics Hub",
+      "plant_code": "WERK_MUM",
+      "location": "Navi Mumbai, Maharashtra, India"
+    }
+  },
+  {
+    "model": "api.emissionfactor",
+    "pk": 1,
+    "fields": {
+      "category": "diesel",
+      "unit": "litres",
+      "kg_co2e_per_unit": "2.6800",
+      "source": "DEFRA 2023 GHG Conversion Factors – Diesel (market-based)"
+    }
+  },
+  {
+    "model": "api.emissionfactor",
+    "pk": 2,
+    "fields": {
+      "category": "petrol",
+      "unit": "litres",
+      "kg_co2e_per_unit": "2.3100",
+      "source": "DEFRA 2023 GHG Conversion Factors – Petrol"
+    }
+  },
+  {
+    "model": "api.emissionfactor",
+    "pk": 3,
+    "fields": {
+      "category": "natural_gas",
+      "unit": "m3",
+      "kg_co2e_per_unit": "2.0400",
+      "source": "DEFRA 2023 GHG Conversion Factors – Natural Gas (volume)"
+    }
+  },
+  {
+    "model": "api.emissionfactor",
+    "pk": 4,
+    "fields": {
+      "category": "lpg",
+      "unit": "litres",
+      "kg_co2e_per_unit": "1.5550",
+      "source": "DEFRA 2023 GHG Conversion Factors – LPG"
+    }
+  },
+  {
+    "model": "api.emissionfactor",
+    "pk": 5,
+    "fields": {
+      "category": "electricity",
+      "unit": "kWh",
+      "kg_co2e_per_unit": "0.7160",
+      "source": "India CEA Grid Emission Factor 2022-23 (national average)"
+    }
+  },
+  {
+    "model": "api.emissionfactor",
+    "pk": 6,
+    "fields": {
+      "category": "flight_economy",
+      "unit": "km",
+      "kg_co2e_per_unit": "0.1556",
+      "source": "DEFRA 2023 – Flights, economy class, per passenger-km (incl. RFI)"
+    }
+  },
+  {
+    "model": "api.emissionfactor",
+    "pk": 7,
+    "fields": {
+      "category": "flight_business",
+      "unit": "km",
+      "kg_co2e_per_unit": "0.4293",
+      "source": "DEFRA 2023 – Flights, business class, per passenger-km (incl. RFI)"
+    }
+  },
+  {
+    "model": "api.emissionfactor",
+    "pk": 8,
+    "fields": {
+      "category": "flight_premium_economy",
+      "unit": "km",
+      "kg_co2e_per_unit": "0.2370",
+      "source": "DEFRA 2023 – Flights, premium economy, per passenger-km (incl. RFI)"
+    }
+  },
+  {
+    "model": "api.emissionfactor",
+    "pk": 9,
+    "fields": {
+      "category": "flight_first",
+      "unit": "km",
+      "kg_co2e_per_unit": "0.6229",
+      "source": "DEFRA 2023 – Flights, first class, per passenger-km (incl. RFI)"
+    }
+  },
+  {
+    "model": "api.emissionfactor",
+    "pk": 10,
+    "fields": {
+      "category": "hotel_nights",
+      "unit": "nights",
+      "kg_co2e_per_unit": "31.1000",
+      "source": "DEFRA 2023 – Hotel stays, average per room-night"
+    }
+  },
+  {
+    "model": "api.emissionfactor",
+    "pk": 11,
+    "fields": {
+      "category": "taxi",
+      "unit": "km",
+      "kg_co2e_per_unit": "0.1490",
+      "source": "DEFRA 2023 – Taxis (average)"
+    }
+  },
+  {
+    "model": "api.emissionfactor",
+    "pk": 12,
+    "fields": {
+      "category": "rail",
+      "unit": "km",
+      "kg_co2e_per_unit": "0.0364",
+      "source": "DEFRA 2023 – National rail, per passenger-km"
+    }
+  },
+  {
+    "model": "api.emissionfactor",
+    "pk": 13,
+    "fields": {
+      "category": "car_rental",
+      "unit": "km",
+      "kg_co2e_per_unit": "0.1707",
+      "source": "DEFRA 2023 – Average car (medium petrol)"
+    }
+  }
+]
