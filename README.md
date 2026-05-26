@@ -8,6 +8,12 @@ A full-stack prototype application developed for the Breathe ESG Tech Intern Ass
 
 ---
 
+
+
+https://github.com/user-attachments/assets/e5afd319-390a-4816-9e12-e5bb4e750855
+
+
+
 ## 🎯 Project Objectives
 
 1.  **Ingest Diverse Data Shapes**: Handle three vastly different data sources (SAP flat files, Utility CSVs, and Travel APIs) with their own quirks and irregularities.
